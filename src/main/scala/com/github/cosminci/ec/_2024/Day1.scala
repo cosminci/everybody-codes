@@ -5,9 +5,9 @@ import com.github.cosminci.ec.utils
 object Day1 {
 
   def main(args: Array[String]): Unit = {
-    println(s"Part 1: ${countPotionsNeeded1(utils.loadInputAsStrings("2024/day1_part1.txt").head)}")
-    println(s"Part 2: ${countPotionsNeeded2(utils.loadInputAsStrings("2024/day1_part2.txt").head)}")
-    println(s"Part 3: ${countPotionsNeeded3(utils.loadInputAsStrings("2024/day1_part3.txt").head)}")
+    println(s"Part 1: ${countPotionsNeeded1(utils.loadInputAsStrings("2024/day1/part1.txt").head)}")
+    println(s"Part 2: ${countPotionsNeeded2(utils.loadInputAsStrings("2024/day1/part2.txt").head)}")
+    println(s"Part 3: ${countPotionsNeeded3(utils.loadInputAsStrings("2024/day1/part3.txt").head)}")
   }
 
   def countPotionsNeeded1(creatures: String): Int =
